@@ -1,0 +1,46 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using MediatR;
+using FApps.Core.Domain;
+using FApps.Services.Contact.Command;
+using FApps.Services.Contact.Query;
+using Microsoft.AspNetCore.Cors;
+
+namespace FApps.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [EnableCors("CorsPolicy")]
+    public class ContacsController : ControllerBase
+    {
+        private readonly IMediator _mediator;
+
+        public ContacsController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
+        #region Get Contact
+        [HttpGet]
+        public async Task<IActionResult>GetAll()
+        {
+            var result = await _mediator.Send(new ReadQuery());
+            return result != null ? (IActionResult)Ok(result) : StatusCode(500);
+        }
+        #endregion
+
+        #region Insert/Update
+        [HttpPost]
+        public async Task<IActionResult>Create([FromBody] Contact model)
+        {
+            if (model == null || !ModelState.IsValid) return BadRequest(ModelState);
+            var id = await _mediator.Send(new InsertCommand(model));
+            return string.IsNullOrEmpty(id.ToString()) ? NotFound() : (IActionResult)Created(string.Empty, id);
+        }
+        #endregion
+    }
+}

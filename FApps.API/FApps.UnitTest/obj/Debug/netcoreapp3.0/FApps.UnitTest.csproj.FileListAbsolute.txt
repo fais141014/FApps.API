@@ -1,0 +1,7 @@
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp3.0\FApps.UnitTest.deps.json
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp3.0\FApps.UnitTest.dll
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp3.0\FApps.UnitTest.pdb
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp3.0\FApps.UnitTest.AssemblyInfoInputs.cache
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp3.0\FApps.UnitTest.AssemblyInfo.cs
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp3.0\FApps.UnitTest.dll
+C:\Project\FApps.API\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp3.0\FApps.UnitTest.pdb

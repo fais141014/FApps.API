@@ -1,0 +1,7 @@
+C:\Project\FApps.API\FApps.API\FApps.Services\bin\Debug\netcoreapp3.0\FApps.Services.deps.json
+C:\Project\FApps.API\FApps.API\FApps.Services\bin\Debug\netcoreapp3.0\FApps.Services.dll
+C:\Project\FApps.API\FApps.API\FApps.Services\bin\Debug\netcoreapp3.0\FApps.Services.pdb
+C:\Project\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp3.0\FApps.Services.AssemblyInfoInputs.cache
+C:\Project\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp3.0\FApps.Services.AssemblyInfo.cs
+C:\Project\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp3.0\FApps.Services.dll
+C:\Project\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp3.0\FApps.Services.pdb
