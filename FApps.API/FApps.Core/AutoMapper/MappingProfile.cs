@@ -2,7 +2,7 @@
 using FApps.Core.Domain;
 using FApps.Core.DTO;
 
-namespace FApps.API.Mapping
+namespace FApps.Core.AutoMapper
 {
     public class MappingProfile : Profile
     {
@@ -11,4 +11,5 @@ namespace FApps.API.Mapping
             CreateMap<Contact, ContactDTO>().ReverseMap();
         }
     }
+
 }

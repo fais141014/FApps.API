@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FApps.API.Filters;
-using FApps.API.Mapping;
+using FApps.Core.AutoMapper;
 using FApps.Core.Context;
 using FApps.Data.Interfaces;
 using FApps.Data.Services;
