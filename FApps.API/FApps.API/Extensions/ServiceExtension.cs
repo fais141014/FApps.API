@@ -43,12 +43,10 @@ namespace FApps.API.Extensions
             services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(
                 Configuration.GetConnectionString("myconn"), b => b.MigrationsAssembly("FApps.API")));
         }
-
         public static void ConfigureDependencyInjection(this IServiceCollection services)
         {
             services.AddScoped<IContactService, ContactService>();
         }
-
         public static void ConfigureAutoMapper(this IServiceCollection services)
         {
             var MappingConfiguration = new MapperConfiguration(mc =>

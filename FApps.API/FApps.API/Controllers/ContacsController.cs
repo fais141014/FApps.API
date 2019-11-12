@@ -60,6 +60,13 @@ namespace FApps.API.Controllers
         #endregion
 
         #region Delete
+        [HttpDelete("{id}")]
+        public async Task<IActionResult>Delete([FromRoute] Guid? id)
+        {
+            if (id == null || id == Guid.Empty) return BadRequest(ModelState);
+            var result = await _mediator.Send(new DeleteCommand(id));
+            return result ? (IActionResult)Ok(result) : NotFound();
+        }
         #endregion
     }
 }
