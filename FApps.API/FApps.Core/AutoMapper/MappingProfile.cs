@@ -9,6 +9,7 @@ namespace FApps.Core.AutoMapper
         public MappingProfile()
         {
             CreateMap<Contact, ContactDTO>().ReverseMap();
+            CreateMap<UserDTO, User>().ReverseMap();
         }
     }
 
