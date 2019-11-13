@@ -29,8 +29,8 @@ C:\Project\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
 C:\Project\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp2.2\FApps.UnitTest.deps.json
 C:\Project\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp2.2\FApps.UnitTest.dll
 C:\Project\FApps.API\FApps.UnitTest\bin\Debug\netcoreapp2.2\FApps.UnitTest.pdb
+C:\Project\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp2.2\FApps.UnitTest.csprojAssemblyReference.cache
 C:\Project\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp2.2\FApps.UnitTest.AssemblyInfoInputs.cache
 C:\Project\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp2.2\FApps.UnitTest.AssemblyInfo.cs
 C:\Project\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp2.2\FApps.UnitTest.dll
 C:\Project\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp2.2\FApps.UnitTest.pdb
-C:\Project\FApps.API\FApps.UnitTest\obj\Debug\netcoreapp2.2\FApps.UnitTest.csprojAssemblyReference.cache

@@ -46,6 +46,7 @@ namespace FApps.API.Extensions
         public static void ConfigureDependencyInjection(this IServiceCollection services)
         {
             services.AddScoped<IContactService, ContactService>();
+            services.AddScoped<IUserServices, UserServices>();
         }
         public static void ConfigureAutoMapper(this IServiceCollection services)
         {

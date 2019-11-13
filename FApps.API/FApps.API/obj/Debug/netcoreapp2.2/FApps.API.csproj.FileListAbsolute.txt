@@ -64,8 +64,8 @@ C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\nunit.engine.dll
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\appsettings.json
-C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\libman.json
+C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\FApps.API.deps.json
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\FApps.API.runtimeconfig.json
 C:\Project\FApps.API\FApps.API\bin\Debug\netcoreapp2.2\FApps.API.runtimeconfig.dev.json
