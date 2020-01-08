@@ -4,6 +4,13 @@ using MediatR;
 using FApps.Services.User.Query;
 using FApps.Core.Domain;
 using FApps.Services.User.Command;
+using Microsoft.Extensions.Configuration;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using System;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FApps.API.Controllers
 {
@@ -12,13 +19,16 @@ namespace FApps.API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public UsersController(IMediator mediator)
+        private IConfiguration _config;
+        public UsersController(IMediator mediator, IConfiguration config)
         {
             _mediator = mediator;
+            _config = config;
         }
         #region Get All User
+        [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult>GetAll()
+        public async Task<IActionResult> GetAll()
         {
             var result = await _mediator.Send(new ReadQuery());
             return result != null ? (IActionResult)Ok(result) : NotFound();
@@ -36,21 +46,44 @@ namespace FApps.API.Controllers
         #endregion
 
         #region login via jwt
-        //[HttpGet("{Email}/{Password}",Name ="GetUser")]
-        //public async Task<IActionResult>GetByConditions([FromBody] string email,[FromBody] string password)
-        //{
-        //    if(!ModelState.IsValid)
-        //    {
-        //        return BadRequest("token can not be created");
-        //    }
-        //    var result = await _mediator.Send(new ReadQueryByConditions(email, password));
-        //    if(result==null)
-        //    {
-        //        return Unauthorized();
-        //    }
-        //    // TODO:implement jwt pending
-        //    return (IActionResult)Ok(result);
-        //}
+        [AllowAnonymous]
+        [HttpGet("{Email}/{Password}", Name = "GetUser")]      
+        public async Task<IActionResult> GetByConditions([FromRoute] string email, [FromRoute] string password)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("token can not be created");
+            }
+            var result = await _mediator.Send(new ReadQueryByConditions(email, password));
+            if (result == null)
+            {
+                return Unauthorized();
+            }
+
+            var claims = new[]
+             {
+                new Claim(JwtRegisteredClaimNames.Email,email),
+                new Claim(JwtRegisteredClaimNames.Sub,"subject"),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            //shared key between the token server and the resource server
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("condimentumvestibulumSuspendissesitametpulvinarorcicondimentummollisjusto"));
+            var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var SecurityToken = new JwtSecurityToken(
+                issuer: _config["AuthSection:JWtConfig:Issuer"],
+                audience: _config["AuthSection:JWtConfig:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(15),
+                signingCredentials: credentials) ;
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(SecurityToken),
+                expiration = SecurityToken.ValidTo 
+            });
+        }
         #endregion
     }
 }
