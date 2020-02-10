@@ -23,8 +23,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-netcoreapp2.2/
-v16/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -87,8 +86,11 @@ StyleCopReport.xml
 *.svclog
 *.scc
 *.suo
-*.dtbcache
-*.cache
+*.user
+_ReSharper.*
+bin
+obj
+packages
 
 # Chutzpah Test files
 _Chutzpah*
