@@ -27,3 +27,4 @@ C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfoI
 C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfo.cs
 C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.dll
 C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.pdb
+C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.csprojAssemblyReference.cache
