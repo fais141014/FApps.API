@@ -3667,11 +3667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.Data\\FApps.Data.csproj",
+      "projectUniqueName": "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj",
       "projectName": "FApps.Data",
-      "projectPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.Data\\FApps.Data.csproj",
+      "projectPath": "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj",
       "packagesPath": "C:\\Users\\mofaisal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.Data\\obj\\",
+      "outputPath": "C:\\Project\\FApps.API\\FApps.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3690,8 +3690,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
-              "projectPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.Core\\FApps.Core.csproj"
+            "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
+              "projectPath": "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj"
             }
           }
         }
@@ -3722,7 +3722,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

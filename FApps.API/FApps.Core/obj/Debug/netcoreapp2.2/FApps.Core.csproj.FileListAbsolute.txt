@@ -18,3 +18,12 @@ C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Core\obj\Debug\netcoreapp2
 C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfo.cs
 C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.dll
 C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.pdb
+C:\Project\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.deps.json
+C:\Project\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.runtimeconfig.json
+C:\Project\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.runtimeconfig.dev.json
+C:\Project\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.dll
+C:\Project\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.pdb
+C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfoInputs.cache
+C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfo.cs
+C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.dll
+C:\Project\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.pdb

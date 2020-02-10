@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj": {}
+    "C:\\Project\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj": {
+    "C:\\Project\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
+        "projectUniqueName": "C:\\Project\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
         "projectName": "FApps.UnitTest",
-        "projectPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
+        "projectPath": "C:\\Project\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
         "packagesPath": "C:\\Users\\mofaisal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\obj\\",
+        "outputPath": "C:\\Project\\FApps.API\\FApps.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,7 +66,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

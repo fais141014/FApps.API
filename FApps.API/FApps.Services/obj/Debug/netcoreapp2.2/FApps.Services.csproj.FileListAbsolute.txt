@@ -24,3 +24,16 @@ C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Services\obj\Debug\netcore
 C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csproj.CopyComplete
 C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.dll
 C:\Users\mofaisal\Downloads\FApps.API\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.pdb
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Services.deps.json
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Services.dll
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Services.pdb
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Core.dll
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Data.dll
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Core.pdb
+C:\Project\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Data.pdb
+C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csprojAssemblyReference.cache
+C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.AssemblyInfoInputs.cache
+C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.AssemblyInfo.cs
+C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csproj.CopyComplete
+C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.dll
+C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.pdb
