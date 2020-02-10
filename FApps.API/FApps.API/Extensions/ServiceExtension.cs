@@ -75,11 +75,11 @@ namespace FApps.API.Extensions
             {
                 ValidateIssuer = true,
                 //TODO: add url to appsetting.json file
-                ValidIssuer = "https://localhost:44350/api/Users",
+                ValidIssuer = "https://localhost:44350/api/",
 
                 ValidateAudience = true,
                 //TODO: add url to appsetting.json file
-                ValidAudience = "https://localhost:44350/api/Users",
+                ValidAudience = "https://localhost:44350/api/",
 
                 ValidateIssuerSigningKey = true,
                 //TODO: add key to appsetting.json file

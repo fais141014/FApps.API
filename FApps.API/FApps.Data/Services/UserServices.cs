@@ -32,7 +32,7 @@ namespace FApps.Data.Services
 
         public async Task<User> GetUserByIdAsync(string key1, string key2)
         {
-            var user = await FindByConditionAync(u => u.Email.Equals(key1) && u.Email.Equals(key2));
+            var user = await FindByConditionAync(u => u.Email.Equals(key1) && u.Password.Equals(key2));
             return user.FirstOrDefault();
         }
     }

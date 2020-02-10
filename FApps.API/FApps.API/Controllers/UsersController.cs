@@ -47,7 +47,7 @@ namespace FApps.API.Controllers
 
         #region login via jwt
         [AllowAnonymous]
-        [HttpGet("{Email}/{Password}", Name = "GetUser")]      
+        [HttpGet("{email}/{password}", Name = "GetUser")]      
         public async Task<IActionResult> GetByConditions([FromRoute] string email, [FromRoute] string password)
         {
             if (!ModelState.IsValid)
