@@ -1,0 +1,1 @@
+2019-11-13 18:07:50.909 +05:30 Warning:{ Id: 11, Name: "CorsInsecureConfiguration" } [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported.

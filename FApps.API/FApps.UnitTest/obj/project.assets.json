@@ -3717,11 +3717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
+      "projectUniqueName": "C:\\Project\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
       "projectName": "FApps.UnitTest",
-      "projectPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
+      "projectPath": "C:\\Project\\FApps.API\\FApps.UnitTest\\FApps.UnitTest.csproj",
       "packagesPath": "C:\\Users\\mofaisal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mofaisal\\Downloads\\FApps.API\\FApps.API\\FApps.UnitTest\\obj\\",
+      "outputPath": "C:\\Project\\FApps.API\\FApps.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

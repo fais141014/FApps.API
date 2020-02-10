@@ -36,6 +36,7 @@ namespace FApps.API
             services.ConfigureDependencyInjection();
             services.ConfigureAutoMapper();
             services.ConfigureModelStateValidation();
+            services.ConfigureJWTAuthentication();
 
             //Mediatr Configurations
             services.AddMediatR(typeof(Startup));
@@ -62,7 +63,13 @@ namespace FApps.API
             #endregion
 
             app.UseCors("CorsPolicy");
+
             app.UseHttpsRedirection();
+
+            #region Use Authentication
+             app.UseAuthentication();
+            #endregion
+
             app.UseMvc();
 
             //Sawgger Configuration

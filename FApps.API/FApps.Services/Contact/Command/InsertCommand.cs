@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FApps.Services.Contact.Command
 {
@@ -11,6 +12,6 @@ namespace FApps.Services.Contact.Command
         public InsertCommand(FApps.Core.Domain.Contact contact)
         {
             _contact = contact;
-        }
+        }       
     }
 }

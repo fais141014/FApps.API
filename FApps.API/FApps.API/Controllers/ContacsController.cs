@@ -31,6 +31,14 @@ namespace FApps.API.Controllers
             var result = await _mediator.Send(new ReadQuery());
             return result != null ? (IActionResult)Ok(result) : StatusCode(500);
         }
+
+        [HttpGet("{id}",Name ="GetContacts")]
+        public async Task <IActionResult>GetById([FromRoute] Guid id)
+        {
+            if (id == Guid.Empty) return NotFound();
+            var result = await _mediator.Send(new ReadByIdQuery() { Id=id});
+            return result != null ? (IActionResult)Ok(result) : NotFound();
+;        }
         #endregion
 
         #region Insert/Update
@@ -40,6 +48,24 @@ namespace FApps.API.Controllers
             if (model == null || !ModelState.IsValid) return BadRequest(ModelState);
             var id = await _mediator.Send(new InsertCommand(model));
             return string.IsNullOrEmpty(id.ToString()) ? NotFound() : (IActionResult)Created(string.Empty, id);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult>Update(Guid id,[FromBody] Contact model)
+        {
+            if (model == null || !ModelState.IsValid) return BadRequest(ModelState);
+            var result = await _mediator.Send(new UpdateCommand(id, model));
+            return result ? (IActionResult)Created(string.Empty, id) : Ok(id);
+        }
+        #endregion
+
+        #region Delete
+        [HttpDelete("{id}")]
+        public async Task<IActionResult>Delete([FromRoute] Guid? id)
+        {
+            if (id == null || id == Guid.Empty) return BadRequest(ModelState);
+            var result = await _mediator.Send(new DeleteCommand(id));
+            return result ? (IActionResult)Ok(result) : NotFound();
         }
         #endregion
     }
