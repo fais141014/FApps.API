@@ -31,3 +31,15 @@ C:\Project\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.AssemblyInfo.
 C:\Project\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.csproj.CopyComplete
 C:\Project\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.dll
 C:\Project\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.pdb
+D:\PROJECT\Server\FApps.API\FApps.Data\bin\Debug\netcoreapp2.2\FApps.Data.deps.json
+D:\PROJECT\Server\FApps.API\FApps.Data\bin\Debug\netcoreapp2.2\FApps.Data.dll
+D:\PROJECT\Server\FApps.API\FApps.Data\bin\Debug\netcoreapp2.2\FApps.Data.pdb
+D:\PROJECT\Server\FApps.API\FApps.Data\bin\Debug\netcoreapp2.2\FApps.Core.dll
+D:\PROJECT\Server\FApps.API\FApps.Data\bin\Debug\netcoreapp2.2\FApps.Core.pdb
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.csprojAssemblyReference.cache
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.csproj.CoreCompileInputs.cache
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.AssemblyInfoInputs.cache
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.AssemblyInfo.cs
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.csproj.CopyComplete
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.dll
+D:\PROJECT\Server\FApps.API\FApps.Data\obj\Debug\netcoreapp2.2\FApps.Data.pdb

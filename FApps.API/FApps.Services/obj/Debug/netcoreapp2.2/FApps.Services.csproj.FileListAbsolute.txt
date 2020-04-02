@@ -37,3 +37,17 @@ C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.Assem
 C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csproj.CopyComplete
 C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.dll
 C:\Project\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.pdb
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Services.deps.json
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Services.dll
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Services.pdb
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Core.dll
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Data.dll
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Core.pdb
+D:\PROJECT\Server\FApps.API\FApps.Services\bin\Debug\netcoreapp2.2\FApps.Data.pdb
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csprojAssemblyReference.cache
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csproj.CoreCompileInputs.cache
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.AssemblyInfoInputs.cache
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.AssemblyInfo.cs
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.csproj.CopyComplete
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.dll
+D:\PROJECT\Server\FApps.API\FApps.Services\obj\Debug\netcoreapp2.2\FApps.Services.pdb

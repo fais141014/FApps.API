@@ -1,9 +1,10 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FApps.API.Migrations
 {
-    public partial class initialmigration : Migration
+    public partial class initialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,6 +49,25 @@ namespace FApps.API.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Contacts", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "logEntries",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Message = table.Column<string>(nullable: true),
+                    MessageTemplate = table.Column<string>(nullable: true),
+                    Level = table.Column<string>(nullable: true),
+                    TimeStamp = table.Column<DateTimeOffset>(nullable: false),
+                    Exception = table.Column<string>(nullable: true),
+                    Properties = table.Column<string>(nullable: true),
+                    LogEvent = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_logEntries", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -136,6 +156,9 @@ namespace FApps.API.Migrations
 
             migrationBuilder.DropTable(
                 name: "Employees");
+
+            migrationBuilder.DropTable(
+                name: "logEntries");
 
             migrationBuilder.DropTable(
                 name: "Students");

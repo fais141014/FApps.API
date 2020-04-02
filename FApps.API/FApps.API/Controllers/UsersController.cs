@@ -36,6 +36,7 @@ namespace FApps.API.Controllers
         #endregion
 
         #region Insert user
+        [AllowAnonymous]
         [HttpPost]
        public async Task<IActionResult>Create([FromBody] User model)
         {
@@ -46,7 +47,6 @@ namespace FApps.API.Controllers
         #endregion
 
         #region login via jwt
-        [AllowAnonymous]
         [HttpGet("{email}/{password}", Name = "GetUser")]      
         public async Task<IActionResult> GetByConditions([FromRoute] string email, [FromRoute] string password)
         {

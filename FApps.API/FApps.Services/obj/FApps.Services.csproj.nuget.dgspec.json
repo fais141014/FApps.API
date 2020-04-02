@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\FApps.API\\FApps.Services\\FApps.Services.csproj": {}
+    "D:\\PROJECT\\Server\\FApps.API\\FApps.Services\\FApps.Services.csproj": {}
   },
   "projects": {
-    "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
+    "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj",
+        "projectUniqueName": "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj",
         "projectName": "FApps.Core",
-        "projectPath": "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj",
-        "packagesPath": "C:\\Users\\mofaisal\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\FApps.API\\FApps.Core\\obj\\",
+        "projectPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj",
+        "packagesPath": "C:\\Users\\Saima\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mofaisal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Saima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,24 +76,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj": {
+    "D:\\PROJECT\\Server\\FApps.API\\FApps.Data\\FApps.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj",
+        "projectUniqueName": "D:\\PROJECT\\Server\\FApps.API\\FApps.Data\\FApps.Data.csproj",
         "projectName": "FApps.Data",
-        "projectPath": "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj",
-        "packagesPath": "C:\\Users\\mofaisal\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\FApps.API\\FApps.Data\\obj\\",
+        "projectPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Data\\FApps.Data.csproj",
+        "packagesPath": "C:\\Users\\Saima\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mofaisal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Saima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,8 +106,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
-                "projectPath": "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj"
+              "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
+                "projectPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj"
               }
             }
           }
@@ -138,24 +138,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Project\\FApps.API\\FApps.Services\\FApps.Services.csproj": {
+    "D:\\PROJECT\\Server\\FApps.API\\FApps.Services\\FApps.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\FApps.API\\FApps.Services\\FApps.Services.csproj",
+        "projectUniqueName": "D:\\PROJECT\\Server\\FApps.API\\FApps.Services\\FApps.Services.csproj",
         "projectName": "FApps.Services",
-        "projectPath": "C:\\Project\\FApps.API\\FApps.Services\\FApps.Services.csproj",
-        "packagesPath": "C:\\Users\\mofaisal\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\FApps.API\\FApps.Services\\obj\\",
+        "projectPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Services\\FApps.Services.csproj",
+        "packagesPath": "C:\\Users\\Saima\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mofaisal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Saima\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,11 +168,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
-                "projectPath": "C:\\Project\\FApps.API\\FApps.Core\\FApps.Core.csproj"
+              "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj": {
+                "projectPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Core\\FApps.Core.csproj"
               },
-              "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj": {
-                "projectPath": "C:\\Project\\FApps.API\\FApps.Data\\FApps.Data.csproj"
+              "D:\\PROJECT\\Server\\FApps.API\\FApps.Data\\FApps.Data.csproj": {
+                "projectPath": "D:\\PROJECT\\Server\\FApps.API\\FApps.Data\\FApps.Data.csproj"
               }
             }
           }
@@ -211,7 +211,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

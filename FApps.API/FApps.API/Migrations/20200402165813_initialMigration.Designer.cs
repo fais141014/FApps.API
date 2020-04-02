@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FApps.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20191106113657_addedlogentry")]
-    partial class addedlogentry
+    [Migration("20200402165813_initialMigration")]
+    partial class initialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
