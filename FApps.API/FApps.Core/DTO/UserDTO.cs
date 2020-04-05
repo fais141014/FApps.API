@@ -9,7 +9,11 @@ namespace FApps.Core.DTO
     {
         [Required]
         public string Email { get; set; }
-        [Required]
-        public string Password { get; set; }
+        //[Required]
+        //public string Password { get; set; }
+        public string Name { get; set; }
+        public string token { get; set; }
+        public DateTime? expiration { get; set; }
+       
     }
 }
