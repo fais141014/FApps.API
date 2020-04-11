@@ -67,7 +67,7 @@ namespace FApps.API
             app.UseHttpsRedirection();
 
             #region Use Authentication
-             app.UseAuthentication();
+            // app.UseAuthentication();
             #endregion
 
             app.UseMvc();

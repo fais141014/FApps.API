@@ -30,7 +30,6 @@
     <ProjectReference Include="..\FApps.Core\FApps.Core.csproj" />
     <ProjectReference Include="..\FApps.Data\FApps.Data.csproj" />
     <ProjectReference Include="..\FApps.Services\FApps.Services.csproj" />
-    <ProjectReference Include="..\FApps.UnitTest\FApps.UnitTest.csproj" />
   </ItemGroup>
 
   <ItemGroup>

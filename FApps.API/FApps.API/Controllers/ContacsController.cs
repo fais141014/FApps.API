@@ -14,7 +14,7 @@ namespace FApps.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("CorsPolicy")]
+    //[EnableCors("CorsPolicy")]
     public class ContacsController : ControllerBase
     {
         private readonly IMediator _mediator;

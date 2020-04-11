@@ -33,7 +33,6 @@ D:\PROJECT\Server\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.runtim
 D:\PROJECT\Server\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.runtimeconfig.dev.json
 D:\PROJECT\Server\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.dll
 D:\PROJECT\Server\FApps.API\FApps.Core\bin\Debug\netcoreapp2.2\FApps.Core.pdb
-D:\PROJECT\Server\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.csprojAssemblyReference.cache
 D:\PROJECT\Server\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.csproj.CoreCompileInputs.cache
 D:\PROJECT\Server\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfoInputs.cache
 D:\PROJECT\Server\FApps.API\FApps.Core\obj\Debug\netcoreapp2.2\FApps.Core.AssemblyInfo.cs
